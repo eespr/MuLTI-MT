@@ -14,6 +14,9 @@ MuLTI MT core functions:
 1-D forward model solver:
 “MT1D.m” computes the surface impedance Z for a 1D resistivity model. Written by Kerry Key, Scripps Institution of Oceanography.
 
+Citation:
+Siobhan Killingbeck. (2025). eespr/MuLTI-MT: MuLTI MT (v1.1). Zenodo. https://doi.org/10.5281/zenodo.17896670
+
 References:
 Killingbeck, S. F., Livermore, P. W., Booth, A. D., & West, L. J. (2018). Multimodal layered transdimensional inversion of seismic dispersion curves with depth constraints. Geochemistry, Geophysics, Geosystems, 19(12), 4957-4971.
 Rung-Arunwan, T., Siripunvaraporn, W., & Utada, H. (2017). Use of ssq rotational invariant of magnetotelluric impedances for estimating informative properties for galvanic distortion. Earth, Planets and Space, 69(1), 80.
