@@ -139,9 +139,9 @@ params.sigma_birth_R = 6; % <<< Kept the increased value
 
 % LESS IMPORTANT PARAMETERS (Define discretization grids)
 params.thin = 1000; 
-params.x_min = priors.layer_depths(1);
+params.x_min = 0;
 params.x_max = priors.depth_max;
-x_temp = logspace(log10(params.x_min-1),log10(params.x_max),params.dis-1);
+x_temp = logspace(0,log10(params.x_max),params.dis-1);
 params.x = [0, x_temp]; % depth axis
 params.y = linspace(min(priors.Rmin), max(priors.Rmax), params.dis); % R axis
 params.frequency_x = linspace(log10(min(frequency)), log10(max(frequency)), params.dis);
